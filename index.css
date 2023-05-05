@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fixedcontent{
+    position:sticky;
+    top: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(0, 0, 0);
+}
+
+.header img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    filter: invert();
+}
+
+.navitems{
+    display: flex;
+    margin: 5px;
+}
+
+.navitems .item{
+    margin: 15px;
+    list-style: none;
+}
+
+.navitems .item a{
+    color: white;
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    background: rgb(244, 164, 15);
+}
+
+.fullscreenmaterial{
+    margin-left: 50px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.profileblock{
+    margin: 10px;
+    display: flex;
+}
+
+.profileblock .aboutblock{
+    display: flex;
+}
+
+.profileblock .aboutcontent{
+    width: 70%;
+    text-align: left;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profileblock img{
+    width: 100px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.homebar{
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.homebar h1{
+    padding: 10px;
+}
+
+.homedetails{
+    position: relative;
+    z-index: -1;
+}
+
+.homedetails p{
+    font-size: 20px;
+}
+
+.homedetails .homecontent{
+    margin: 10px;
+}
+
+
+.homecontent .skillsection{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.homecontent .skillsection h1{
+    background: black;
+    color: white;
+    width: 80%;
+    text-align: center;
+}
+
+.homecontent .skillsection ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.homecontent .skillsection ul li .skill{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.mainabout{
+    width: 100%;
+}
+
+.mainabout .headabout{
+    display: flex;
+    justify-content: center;
+}
+
+.mainabout .headabout h1{
+    background: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.mainabout .aboutdetails{
+    margin: 10px;
+}
+
+
+.mainabout .aboutdetails .edu{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.mainabout .aboutdetails .edu h1{
+    background: black;
+    color: white;
+    width: 80%;
+}
+
+.mainabout .aboutdetails .edu ul{
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainabout .aboutdetails .edu ul li{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 80vw;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+
+.mainabout .aboutdetails .edu ul li h3{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+
+.projectsblock{
+    width: 100%;
+}
+
+.projectsblock .headproject{
+    display: flex;
+    justify-content: center;
+}
+
+.projectsblock .headproject h1{
+    background: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.projectsblock .projectlist ul{
+    margin-top: 20px;
+}
+
+.projectsblock .projectlist ul li{
+    display: flex;
+}
+
+.projectsblock .projectlist ul li .litem h1{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    background: grey;
+}
+
+.projectsblock .projectlist ul li .litem .content{
+    display: flex;
+    align-items: center;
+}
+
+.projectsblock .projectlist ul li .litem .content div h2{
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.projectsblock .projectlist ul li .litem .content img{
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+.contact .headcontact{
+    display: flex;
+    justify-content: center;
+}
+
+.contact .headcontact h1{
+    background: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.contact .contactdetails ul{
+    margin-top:30px ;
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contact .contactdetails ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact .contactdetails ul li .contactitem{
+    background: black;
+    border-radius: 40px;
+    width: fit-content;
+}
+
+.contact .contactdetails ul li .contactitem img{
+    width: 40px;
+    filter: invert();
+    margin: 15px;
+}
+
+.contact .contactdetails ul li .contactitemcontent{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.article .headarticle{
+    display: flex;
+    justify-content: center;
+}
+
+.article .headarticle h1{
+    background: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.articledetails{
+    margin-top: 30px;
+}
