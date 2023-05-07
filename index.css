@@ -300,3 +300,18 @@
 .articledetails{
     margin-top: 30px;
 }
+
+.articledetails .article1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articledetails .article1 img{
+    margin-top: 30px;
+}
+
+.articledetails p{
+    margin: 30px;
+    font-size: 20px;
+}
