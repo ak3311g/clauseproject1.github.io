@@ -104,6 +104,11 @@
     flex-direction: column;
 }
 
+.homecontent .brief{
+    text-align: center;
+    margin-top: 30px;
+}
+
 .homecontent .skillsection h1{
     background: black;
     color: white;
